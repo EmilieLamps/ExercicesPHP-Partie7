@@ -1,5 +1,5 @@
 <?php
-$page = "Exercice 1"; // Définir la variable pour changer le titre !
+$page = "Exercice 3"; // Définir la variable pour changer le titre !
 include 'header.php';
 ?>
 <?php 

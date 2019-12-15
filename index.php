@@ -8,7 +8,7 @@ include 'header.php';
     <div class="row mt-5 justify-content-center">
         <div class="col-md-5">
             <p>Veuillez entrer vos informations</p>
-            <form action="user.php" method="GET">
+            <form action="user2.php" method="GET">
                 <div class="form-group">
                     <label class="number" for="lastName">Nom : </label>
                     <input class="form-control" type="text" name="lastName" id="lastName" />
@@ -24,9 +24,6 @@ include 'header.php';
         </div>
     </div>
 </div>
-<?php
-?>
-<p></p>
 <?php
 include 'footer.php';
 ?>
