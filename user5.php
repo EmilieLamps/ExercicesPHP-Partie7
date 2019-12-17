@@ -15,6 +15,9 @@ if(isset($_GET['firstName'])){
 if(isset($_GET['lastName'])){
     $lastName = $_GET['lastName'];
 }
+if(empty($gender) && empty($firstName) && empty($lastName)){
+    
+}
 ?>
 <p><?= $gender ?></p>
 <p>Votre nom est <?= $lastName ?></p>

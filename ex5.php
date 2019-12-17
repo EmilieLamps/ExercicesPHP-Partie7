@@ -8,11 +8,11 @@ include 'header.php';
     <div class="row mt-5 justify-content-center">
         <div class="col-md-5">
             <p>Veuillez entrer vos informations</p>
-            <form action="user.php" method="GET">
+            <form action="user5.php" method="GET">
                 <div class="form-group"> 
                     <select name="gender">
-                        <option>Madame</option>
-                        <option>Monsieur</option>
+                        <option value="Madame">Madame</option>
+                        <option value="Monsieur">Monsieur</option>
                     </select>
                 </div>
                 <div class="form-group">
@@ -30,4 +30,4 @@ include 'header.php';
         </div>
     </div>
 </div>
-<?= include 'footer.php'; ?>
+<?php include 'footer.php'; ?>
