@@ -30,10 +30,9 @@ include 'header.php';
                 } else {
                     $message2 = 'Veuillez réessayer, l\'envoi de votre fichier n\'a pas abouti';
                 }
-            } 
-            if($displayForm) { // Si le displayForm est toujours "true" affiche le formulaire 
+            }
+            if ($displayForm) { // Si le displayForm est toujours "true" affiche le formulaire 
                 ?>
-             <p>Le format de votre fichier n'est pas valide</p>
                 <p>Veuillez entrer vos informations</p>
                 <form action="ex8.php" method="post" enctype="multipart/form-data">
                     <div class="form-group"> 
